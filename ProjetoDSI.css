@@ -56,4 +56,18 @@ footer{
         padding: 15px;
         flex-wrap: wrap;
     }
+
+    @media (max-width: 1024px) and (min-width: 601px) {
+        .login {
+            flex-wrap: wrap;
+        }
+
+        #email {
+            width: 45%;
+        }
+
+        #senha{
+            width: 45%;
+        }
+    }
 }
