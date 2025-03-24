@@ -15,6 +15,15 @@ body{
     color: rgb(18, 61, 235);
 }
 
+header{
+    border-radius: 4px;
+    position: relative;
+    background-color: rgb(44, 44, 44);
+    font-size: medium;
+    height: 20vh;
+    padding: 20px;
+}
+
 
 .login{
  
@@ -58,6 +67,10 @@ footer{
         background-position: center;
         background-size: cover;
     }
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
    
 }
 
@@ -76,5 +89,8 @@ footer{
             background-position: center;
             background-size: cover;
         }
-        
+        header{
+            flex-direction: column;
+            align-items: center;
+        }
     }
