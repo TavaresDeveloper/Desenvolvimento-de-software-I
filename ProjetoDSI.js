@@ -1,5 +1,5 @@
 var email = document.getElementById('e-mail');
-var passoword = document.getElementById('senha');
+var password = document.getElementById('senha');
 
 
 function login(event){
@@ -7,7 +7,7 @@ function login(event){
    event.preventDefault();
 
      var valorEmail = email.value;
-     var valorSenha = passoword.value;
+     var valorSenha = password.value;
 
     var emailRegex = /^[a-zA-Z0-9._-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/;
 
@@ -32,5 +32,5 @@ function login(event){
 
 }
 
-var formulario = document.GetElementById('LoginForm');
+var formulario = document.getElementById('LoginForm');
 formulario.onsubmit = login;
