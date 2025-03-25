@@ -54,9 +54,16 @@ footer{
 @media (max-width: 600px) {
 
     .curiosidadeDoDia{
-      flex-wrap: wrap;
-      
+      font-size: 18px;
+      padding: 15px;
 
     }
+
+   nav{
+      padding: 15px;
+      font-size: 18px;
+
+   }
+    
     
 }
