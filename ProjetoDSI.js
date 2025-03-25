@@ -26,6 +26,8 @@ function login(event){
 
     }
 
+     window.location.href = "SiteGeek.html";
+
     alert("Login efetuado com sucesso!");
 
 }
