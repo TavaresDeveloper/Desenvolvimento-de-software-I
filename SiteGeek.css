@@ -17,18 +17,22 @@ body{
     color: white;
 
 }
-  nav{
-   background-color: darkgray;
-   height: 60px;
-  
-}
+
 a{
   color: white;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
-  position: relative;
+  margin-left: 90%;
+  margin-top: 5%;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
   justify-content: center;
+
 }
 
 .curiosidadeDoDia{
@@ -36,17 +40,18 @@ a{
     justify-content: center;
     text-align: center;
     font-size: medium;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 25%;
-    background-color: darkgray;
-    color: black;
+    margin-top: 20%;
+    color: dodgerblue;
     border-radius: 5px;
 }
 
 h2{
-  margin-top: 20%;
+  margin-top: 5%;
    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-   color: rgb(0, 0, 0);
+   color: dodgerblue;
+   font-weight: bold;
    padding: 25px;
   height: 25px;
   width: 30vh;
@@ -56,11 +61,12 @@ h2{
 
 
 footer{
-    background-color: darkgray;
+    background-color: rgba(30, 143, 255, 0.822);
      height: 70px;
      font-family: Arial, Helvetica, sans-serif;
      font-size: medium;
     margin-top: 50%;
+    color: black;
 
 }
 
