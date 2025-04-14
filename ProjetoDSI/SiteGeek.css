@@ -8,7 +8,7 @@ body{
     display: flex;
     text-align: center;
     flex-direction: column;
-    background-image: url(./assets/Genya\(4k\ TelaPC\).jpg);
+    background-image: url(./img/Genya\(4k\ TelaPC\).jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -80,7 +80,7 @@ footer{
 
     }
     body{
-        background-image: url(./assets/Genya\(4k\ TelaCelular\).jpg);
+        background-image: url(./img/Genya\(4k\ TelaCelular\).jpg);
         background-size: cover;
         background-position: center;
 
@@ -111,7 +111,7 @@ footer{
        
       body{
           
-        background-image: url(./assets/Genya\(4k\ TelaTablet\).jpg);
+        background-image: url(./img/Genya\(4k\ TelaTablet\).jpg);
          background-position: center;
         background-size: cover;
       }
